@@ -23,8 +23,7 @@ module.exports = {
     //define the help embed
     let helpEmbed = new MessageEmbed()
       .setTitle(`List of all commands`)
-      .setDescription("__**```List of all commands```**__")
-       .setImage('https://images-ext-1.discordapp.net/external/AdhRdMH5M6XLjRyMuu_KlVHH_hu3VW7zBJ78wR1XNGA/%3Fwidth%3D268%26height%3D201/https/media.discordapp.net/attachments/826254779206467605/844429573709627392/image0.gif?width=180&height=135')
+       .setImage('https://media.discordapp.net/attachments/792368491877498890/792512314620116992/image0.gif')
        .setFooter(message.author.username, message.author.displayAvatarURL)
       .setThumbnail(message.author.avatarURL)
       .setColor('RANDOM');
