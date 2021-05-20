@@ -128,7 +128,7 @@ module.exports = {
     }
     
   let thumb;
-    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/avatars/811955068563488788/0d2f650ba4544decd768924878747a3b.webp?size=1024";
+    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024";
     else thumb = song.thumbnail.url;
 
     try {
