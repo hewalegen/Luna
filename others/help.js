@@ -30,7 +30,6 @@ module.exports = {
 > \`.shuffle\` - \`.search\` - \`.resume\`
 > \`.remove\` - \`.queue\` - \`.filter\`
 > \`.loop\` - \`.lyrics\` - \`.radio\`
-> \`.join\` - \`.disconnct\` - \`.move\`
 **Fun Commands**
 > \`.lock\` - \`unlock\`
 > \`.ban\` - \`.unban\`
