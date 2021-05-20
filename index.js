@@ -79,7 +79,7 @@ client.on(`message`, async (message) => {
 
   //information message when the bot has been tagged
   if(message.content.includes(client.user.id)) {
-    message.reply(new Discord.MessageEmbed().setColor("#c219d8").setAuthor(`${message.author.username}, My Prefix is ${prefix}, to get started; type ${prefix}help`, message.author.displayAvatarURL({dynamic:true})));
+    message.reply(new Discord.MessageEmbed().setColor("#FFF712").setAuthor(`${message.author.username}, My Prefix is ${prefix}, to get started; type ${prefix}help`, message.author.displayAvatarURL({dynamic:true})));
   } 
   //An embed announcement for everyone but no one knows so fine ^w^
   if(message.content.startsWith(`${prefix}embed`)){
@@ -87,9 +87,8 @@ client.on(`message`, async (message) => {
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
-    .setColor("#c219d8")
+    .setColor("#FFF712")
     .setDescription(saymsg)
-    .setFooter("Musicium", client.user.displayAvatarURL())
     //delete the Command
     message.delete({timeout: 300})
     //send the Message
@@ -118,8 +117,8 @@ client.on(`message`, async (message) => {
    if (now < expirationTime) {
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
-      new MessageEmbed().setColor("#c219d8")
-      .setTitle(`<:no:770326304473350145> Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)    
+      new MessageEmbed().setColor("#FFF712")
+      .setTitle(`<:emoji_15:830469967752724500> Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)    
      );
    }
  }
@@ -129,8 +128,8 @@ client.on(`message`, async (message) => {
    command.execute(message, args, client);
  } catch (error) {
    console.error(error);
-   message.reply( new MessageEmbed().setColor("#c219d8")
-   .setTitle(`<:no:770326304473350145> There was an error executing that command.`)).catch(console.error);
+   message.reply( new MessageEmbed().setColor("#FFF712")
+   .setTitle(`<:emoji_15:830469967752724500> There was an error executing that command.`)).catch(console.error);
  }
 
 
