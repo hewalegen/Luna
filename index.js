@@ -96,6 +96,74 @@ client.on(`message`, async (message) => {
   }
 
 
+/////////////
+if(message.content.startsWith(`${prefix}status`)){
+    //define saymsg
+    const saymsg = message.content.slice(Number(prefix.length) + 5)
+    //define embed
+    const embed = new Discord.MessageEmbed()
+    .setColor("#FFF712")
+    .setAuthor("")
+    .setThumbnail(` `)
+    .setFooter(message.author.username, message.author.displayAvatarURL)
+    .setTimestamp()
+    .setDescription(`
+Servers: ${client.guilds.cache.size}
+Users: ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
+Channels: ${client.channels.cache.size}
+`)
+
+    //send the Message
+    message.channel.send(embed)
+    message.react("<:emoji_15:830469967752724500>")
+  }
+
+//An about announcement for everyone but no one knows so fine ^w^
+  if(message.content.startsWith(`${prefix}about`)){
+    //define saymsg
+    const saymsg = message.content.slice(Number(prefix.length) + 5)
+    //define embed
+    const embed = new Discord.MessageEmbed()
+    .setColor("#FF0000")
+    .setAuthor("About Ness Bot.", "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024")
+    .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
+    .setFooter(message.author.username, message.author.displayAvatarURL)
+    .setTimestamp()
+    .setDescription(`
+
+[Support](https://discord.gg/2jAP99jssR) - [Invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)
+
+**Owner Bot** :
+<@749659830809002014>
+
+**ID Bot** :
+${client.user.id}
+
+**Name** :
+${client.user.tag}
+
+**Prefix Bot** :
+${prefix}
+
+**Version** :
+${process.version}
+
+**Servers** :
+${client.guilds.cache.size} Servers
+
+**Users** :
+${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
+
+**Channels** : 
+${client.channels.cache.size}
+
+`)
+
+    //send the Message
+    message.channel.send(embed)
+   message.react("<:emoji_15:830469967752724500>")
+  }
+
 //command Handler DO NOT TOUCH
  const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(prefix)})\\s*`);
  if (!prefixRegex.test(message.content)) return;
