@@ -16,7 +16,7 @@ module.exports = {
         }
 
     let resultsEmbed = new MessageEmbed()
-      .setTitle("<:emoji_15:830469967752724500> | " + titel)
+      .setTitle("<:emoji_15:830469967752724500> " + titel)
       .setColor("#FFF712")
       
       message.channel.send(resultsEmbed);
