@@ -37,9 +37,9 @@ client.on(`ready`, () => {
       });
       
 
-    client.user.setActivity(`${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
+    client.user.setActivity(`${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "LISTENING"});
    
-    client.user.setActivity(`${PREFIX}help`, { type: "PLAYING"});
+    client.user.setActivity(`${PREFIX}help`, { type: "LISTENING"});
   
       }, (5000));
       ////////////////////////////////
