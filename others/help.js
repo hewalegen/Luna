@@ -20,23 +20,23 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-> \`.invite\` - \`.support\` - \`.about\`
-> \`.ping\` - \`.prefix\` - \`.uptime\`
-> \`.se\` - \`.avatar\` - \`.embed\`
-> \`.invites\`
+> \`n!invite\` - \`n!support\` - \`n!about\`
+> \`n!ping\` - \`n!prefix\` - \`n!uptime\`
+> \`n!se\` - \`n!avatar\` - \`n!embed\`
+> \`n!invites\`
 **Music Commands**
-> \`.play\` - \`.skip\` - \`.skipto\`
-> \`.stop\` - \`.volume\` - \`.nowplaying\`
-> \`.shuffle\` - \`.search\` - \`.resume\`
-> \`.remove\` - \`.queue\` - \`.filter\`
-> \`.loop\` - \`.lyrics\` - \`.radio\`
+> \`n!play\` - \`n!skip\` - \`n!skipto\`
+> \`n!stop\` - \`n!volume\` - \`n!nowplaying\`
+> \`n!shuffle\` - \`n!search\` - \`n!resume\`
+> \`n!remove\` - \`n!queue\` - \`n!filter\`
+> \`n!loop\` - \`n!lyrics\` - \`n!radio\`
 **Fun Commands**
-> \`.lock\` - \`unlock\`
-> \`.ban\` - \`.unban\`
-> \`.mute\` - \`.unmute\`
-> \`.slowmode\` - \`.giveaway\`
-> \`.clear\` - \`.say\`
-> \`.bans\` - \`.cv\`
+> \`n!lock\` - \`n!unlock\`
+> \`n!ban\` - \`n!unban\`
+> \`n!mute\` - \`n!unmute\`
+> \`n!slowmode\` - \`n!giveaway\`
+> \`n!clear\` - \`n!say\`
+> \`n!bans\` - \`n!cv\`
 **Links**
 **[Support](https://discord.gg/2jAP99jssR) - [invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
 `)
