@@ -142,4 +142,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by Tomato#6966 
+//Bot coded by Wolf#6966
