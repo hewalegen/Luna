@@ -292,7 +292,7 @@ ${member}`)
 
 client.on("guildMemberRemove", member => {
   const channel = member.guild.channels.cache.find(
-    channel => channel.name === "left"
+    channel => channel.name === "♻ヽ𝖫𝖾𝖿𝗍-𝖲𝖾𝗋𝗏𝖾𝗋"
   );
   let client = member.user.avatarURL();
   if (!channel) return;
