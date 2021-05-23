@@ -256,7 +256,7 @@ client.on("guildDelete", guild => {
 
 client.on("guildMemberAdd", member => {
   const channel = member.guild.channels.cache.find(
-    channel => channel.name === "greetings-and-boosts"
+    channel => channel.name === "・🌟〢welcome"
   );
   let client = member.user.avatarURL();
   if (!channel) return;
