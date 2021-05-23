@@ -224,6 +224,36 @@ ${client.channels.cache.size}
 
 
 });
+
+client.on("guildCreate", guild => {
+  let channel = client.channels.cache.get("845970442418389012");
+  let embed = new MessageEmbed()
+  .setColor("#FFF712")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `✅ Join Server`)
+  .addField(" **Server Name**", `${guild.name}`)
+  .addField(" **Server Owner**", `${guild.owner}`)
+  .addField(" **Server Id**", `${guild.id}`)
+  .addField(" **Member Count**", `${guild.memberCount}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
+});
+
+client.on("guildDelete", guild => {
+  let channel = client.channels.cache.get("845970442418389012");
+  let embed = new MessageEmbed()
+  .setColor("#FFF712")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `❌ Left Server`)
+  .addField(" **Server Name**", `${guild.name}`)
+  .addField(" **Server Owner**", `${guild.owner}`)
+  .addField(" **Server Id**", `${guild.id}`)
+  .addField(" **Member Count**", `${guild.memberCount}`)
+  .addField(" **Verification Level**", `${guild.verificationLevel}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
+});
+
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
