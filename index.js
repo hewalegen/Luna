@@ -254,6 +254,67 @@ client.on("guildDelete", guild => {
   channel.send(embed);
 });
 
+client.on("guildMemberAdd", member => {
+  const channel = member.guild.channels.cache.find(
+    channel => channel.name === "greetings-and-boosts"
+  );
+  let client = member.user.avatarURL();
+  if (!channel) return;
+  const joinembed = new Discord.MessageEmbed()
+    .setTitle(
+      `**Welcome**`
+    )
+    .setColor("RANDOM")
+    .setThumbnail(client)
+    .addField(
+      "┃**Name** : ",
+      `${member}`)
+    .addField(
+      "┃**Welcome**",
+      `Welcome to the server, 
+${member}`)
+    .addField(
+      "┃**ID User** :",
+      "**" + `${member.id}` + "**")
+    .addField(
+      "┃**Your are the member**",
+      `${member.guild.memberCount}`)
+    .addField("Server", `${member.guild.name}`, true)
+    .setFooter(`**${member.guild.name}**`)
+    .setTimestamp()
+    .setImage(
+      "https://cdn.discordapp.com/attachments/756491435229839410/756491623592099890/image0-14.gif"
+    )
+    .setFooter(`${member.guild.name}`)
+    .setTimestamp();
+  channel.send(joinembed);
+});
+
+client.on("guildMemberRemove", member => {
+  const channel = member.guild.channels.cache.find(
+    channel => channel.name === "left"
+  );
+  let client = member.user.avatarURL();
+  if (!channel) return;
+  const joinembed = new Discord.MessageEmbed()
+    .setTitle(
+      `**Left**`
+    )
+    .setColor("RANDOM")
+    .setThumbnail(client)
+    .addField("┃**Name** : ", `${member}`)
+    .addField("┃**All Member** :", `${member.guild.memberCount}`)
+    .addField("┃**Server Name** :", `${member.guild.name}`, true)
+    .setFooter(`**${member.guild.name}**`)
+    .setTimestamp()
+    .setImage(
+      ""
+    )
+    .setFooter(`${member.guild.name}`)
+    .setTimestamp();
+  channel.send(joinembed);
+});
+
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
