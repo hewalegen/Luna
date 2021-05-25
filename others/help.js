@@ -38,11 +38,11 @@ module.exports = {
 > \`n!clear\` - \`n!say\`
 > \`n!bans\` - \`n!cv\`
 **Game Commands**
-> \`.slap\` - \`.hug\`
+> \`n!slap\` - \`n!hug\`
 **Gifs Commands**
-> \`.boy\` - \`.girl\` - \`.baby\`
-> \`.couple\` - \`.animal\` - \`.anime\`
-> \`.emoji\`
+> \`n!boy\` - \`n!girl\` - \`n!baby\`
+> \`n!couple\` - \`n!animal\` - \`n!anime\`
+> \`n!emoji\`
 **Links**
 **[Support](https://discord.gg/2jAP99jssR) - [invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
 `)
