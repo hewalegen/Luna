@@ -753,6 +753,12 @@ msg.reply(`**فـەرمــوو دڵــم چــۆن خــزمــەتـت ک�
  }
 });
 
+client.on("message", msg => { 
+if (msg.content === "") { 
+msg.reply(``);
+ }
+});
+
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
