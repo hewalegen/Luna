@@ -717,59 +717,6 @@ client.on("guildMemberRemove", async member => {
   channel.send(left)
 })
 
-client.on("message", msg => { 
-if (msg.content === "Slaw") { 
-msg.reply(`**ســـــڵاو لـە تــۆش گــــوڵ**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "slaw") { 
-msg.reply(`**ســـــڵاو لـە تــۆش گــــوڵ**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "Hi") { 
-msg.reply(`**Hi And Welcome😍!**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "hi") { 
-msg.reply(`**Hi And Welcome😍!**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "<@749659830809002014>") { 
-msg.reply(`**How I Can Help You**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "<@749659830809002014>") { 
-msg.reply(`**فـەرمــوو دڵــم چــۆن خــزمــەتـت کـەم😘**`);
- }
-});
-
-client.on("message", msg => { 
-if (msg.content === "😂") { 
-msg.reply(`Ba cHI Pe Akany😒`);
-msg.react("😄");
- }
-});
-
-client.on("message", async msg => {
-  if(msg.channel.name === 'taibat'){
-  if(msg.author.bot) return;
- msg.channel.startTyping();
-  const { message } = await fetch(`https://api.udit.gq/api/chatbot?message=${msg.content}[&name=BOTNAME&user=${msg.author.id}&gender=botsgender]`).then(response => response.json());
-msg.channel.send(message)
-msg.channel.stopTyping();
-  }
-});
-
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
