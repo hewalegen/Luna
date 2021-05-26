@@ -47,8 +47,8 @@ module.exports = {
 > \`n!emoji\`
 ┈───────┄🔄┄───────┈
 ~~»Auto Commands~~
-> \`Welcome Channel\` **[ ]**
-> \`Left Channel\` **[ ]**
+> \`Welcome Channel\` **[丨𝖶𝖾𝗅𝖼𝗈𝗆𝖾 ]**
+> \`Left Channel\` **[丨𝖫𝖾𝖿𝗍 ]**
 ┈───────┄🖇️┄───────┈
 **Links**
 **[Support](https://discord.gg/2jAP99jssR) - [invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
