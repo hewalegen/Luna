@@ -691,6 +691,32 @@ client.on("message", message => {
   }
 });
 
+client.on("guildMemberAdd", async member => {
+  let channel = member.guild.channels.cache.find(c => c.name === '丨𝖶𝖾𝗅𝖼𝗈𝗆𝖾')
+  let WELCOME = new Discord.MessageEmbed()
+  .setTitle('')
+  .setDescription(`> **Welcome To Our Server ${member.user} we are happy to have you! you are member number ${member.guild.memberCount}!**`)
+  .setColor('RANDOM')
+  .setImage("https://cdn.discordapp.com/attachments/837954448746872872/846845067179720704/images_1.png")
+  .setThumbnail(client.user.avatarURL)
+  .setTimestamp()
+  .setFooter('Hello')
+  channel.send(WELCOME)
+}) 
+
+client.on("guildMemberRemove", async member => {
+  let channel = member.guild.channels.cache.find(c => c.name === '丨𝖫𝖾𝖿𝗍')
+  let left = new Discord.MessageEmbed()
+  .setTitle('')
+  .setDescription(`> **GoodBye** ${member.user} Now We Have ${member.guild.memberCount} Members`)
+  .setColor('red')
+  .setImage("")
+  .setThumbnail(client.user.avatarURL)
+  .setTimestamp()
+  .setFooter('GoodBye')
+  channel.send(left)
+}) 
+
 function delay(delayInms) {
  return new Promise(resolve => {
    setTimeout(() => {
