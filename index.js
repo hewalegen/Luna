@@ -754,8 +754,9 @@ msg.reply(`**فـەرمــوو دڵــم چــۆن خــزمــەتـت ک�
 });
 
 client.on("message", msg => { 
-if (msg.content === "") { 
-msg.reply(``);
+if (msg.content === "😂") { 
+msg.reply(`Ba cHI Pe Akany😒`);
+msg.react("😄");
  }
 });
 
