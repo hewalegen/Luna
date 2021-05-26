@@ -719,7 +719,31 @@ client.on("guildMemberRemove", async member => {
 
 client.on("message", msg => { 
 if (msg.content === "Slaw") { 
-msg.reply(`ســـــڵاو لـە تــۆش گــــوڵ`);
+msg.reply(`**ســـــڵاو لـە تــۆش گــــوڵ**`);
+ }
+});
+
+client.on("message", msg => { 
+if (msg.content === "slaw") { 
+msg.reply(`**ســـــڵاو لـە تــۆش گــــوڵ**`);
+ }
+});
+
+client.on("message", msg => { 
+if (msg.content === "Hi") { 
+msg.reply(`**Hi And Welcome😍!**`);
+ }
+});
+
+client.on("message", msg => { 
+if (msg.content === "hi") { 
+msg.reply(`**Hi And Welcome😍!**`);
+ }
+});
+
+client.on("message", msg => { 
+if (msg.content === "") { 
+msg.reply(``);
  }
 });
 
