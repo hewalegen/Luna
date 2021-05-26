@@ -716,6 +716,7 @@ client.on("guildMemberRemove", async member => {
   .setFooter('GoodBye')
   channel.send(left)
 })
+
 client.on("message", msg => { 
 if (msg.content === "Slaw") { 
 msg.reply(`ســـــڵاو لـە تــۆش گــــوڵ`);
