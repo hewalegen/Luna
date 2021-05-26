@@ -770,7 +770,7 @@ msg.channel.stopTyping();
   }
 });
 
-if(message.content.startsWith("${prefix}userinfo")){
+if(message.content.startsWith("n!userinfo")){
   if(message.author.bot) return;
   let user = message.mentions.users.first() || message.author
 
