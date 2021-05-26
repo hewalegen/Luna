@@ -18,7 +18,7 @@ module.exports = {
     .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
     .setTitle(`**Ness Help**`)
     .setDescription(`
-
+━━━━━━━━━━  ━━━━━━━━━━
 **User Commands**
 > \`n!invite\` - \`n!support\` - \`n!about\`
 > \`n!ping\` - \`n!prefix\` - \`n!uptime\`
