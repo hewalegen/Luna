@@ -1,6 +1,8 @@
+const { MessageEmbed } = require('discord.js');
+
 module.exports = {
   name: "voicekick",
-  category: "moderation",
+  category: "Music",
   run: async (client, message, args) => {
     if (!message.guild.me.hasPermission(["ADMINISTRATOR"]))
       return message.channel.send(
