@@ -767,7 +767,8 @@ client.on("message", async msg => {
   const { message } = await fetch(`https://api.udit.gq/api/chatbot?message=${msg.content}[&name=BOTNAME&user=${msg.author.id}&gender=botsgender]`).then(response => response.json());
 msg.channel.send(message)
 msg.channel.stopTyping();
-  }});
+  }
+});
 
 function delay(delayInms) {
  return new Promise(resolve => {
