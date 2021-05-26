@@ -52,7 +52,7 @@ module.exports = {
 
    .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#FFF712");
-   message.react("✅")
+   message.react("<:emoji_15:830469967752724500>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
