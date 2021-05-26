@@ -742,8 +742,14 @@ msg.reply(`**Hi And Welcome😍!**`);
 });
 
 client.on("message", msg => { 
-if (msg.content === "") { 
-msg.reply(``);
+if (msg.content === "<@749659830809002014>") { 
+msg.reply(`**How I Can Help You**`);
+ }
+});
+
+client.on("message", msg => { 
+if (msg.content === "<@749659830809002014>") { 
+msg.reply(`**فـەرمــوو دڵــم چــۆن خــزمــەتـت کـەم😘**`);
  }
 });
 
