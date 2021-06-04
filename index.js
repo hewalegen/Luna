@@ -128,36 +128,19 @@ Channels: ${client.channels.cache.size}
     .setAuthor("About Ness Bot.", "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024")
     .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setTimestamp()
-    .setDescription(`
-
-[Support](https://discord.gg/2jAP99jssR) - [Invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)
-
-**Owner Bot** :
-<@749659830809002014>
-
-**ID Bot** :
-${client.user.id}
-
-**Name** :
-${client.user.tag}
-
-**Prefix Bot** :
-${prefix}
-
-**Version** :
-${process.version}
-
-**Servers** :
-${client.guilds.cache.size} Servers
-
-**Users** :
-${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
-
-**Channels** : 
-${client.channels.cache.size}
-
-`)
+    .setDescription (`
+**[Ness Stats](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
+**Hey My name is Ness ✨ and My Work is to
+play Music**`)    
+    .addField("**Name** : ", `${client.user.tag} `, true)
+    .addField("**ID Bot** : ", ` ${client.user.id} `, true)
+    .addField("**Version** : ", `${process.version}`, true)
+    .addField("**Prefix Bot** : ", `${prefix}`, true)
+    .addField('**My Ping**' , `${client.ws.ping}` , true)
+    .addField("**Servers** : ", `${client.guilds.cache.size}`, true)
+    .addField("**Users** : ", `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, true)
+    .addField("**Channels** : ", `${client.channels.cache.size}`, true)
+    .addField("**Owner Bot** : ", `<@749659830809002014>`, true)
 
     //send the Message
     message.channel.send(embed)
