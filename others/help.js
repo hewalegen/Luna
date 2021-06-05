@@ -21,35 +21,35 @@ module.exports = {
 
 • ────── <a:emoji_21:847035009298595860> ────── •
 **☢︎︎◢User Commands**
-> \`n!invite\` - \`n!support\` - \`n!about\`
-> \`n!ping\` - \`n!prefix\` - \`n!uptime\`
-> \`n!se\` - \`n!avatar\` - \`n!embed\`
-> \`n!invites\`
+> \`c!invite\` - \`c!support\` - \`c!about\`
+> \`c!ping\` - \`c!prefix\` - \`c!uptime\`
+> \`n!se\` - \`c!avatar\` - \`c!embed\`
+> \`c!invites\`
 • ────── <a:emoji_16:846056106392420383> ────── •
 **☢︎︎◢Music Commands**
-> \`n!play\` - \`n!skip\` - \`n!skipto\`
-> \`n!stop\` - \`n!volume\` - \`n!nowplaying\`
-> \`n!shuffle\` - \`n!search\` - \`n!resume\`
-> \`n!remove\` - \`n!queue\` - \`n!filter\`
-> \`n!loop\` - \`n!lyrics\` - \`n!radio\`
+> \`c!play\` - \`c!skip\` - \`c!skipto\`
+> \`c!stop\` - \`c!volume\` - \`c!nowplaying\`
+> \`c!shuffle\` - \`c!search\` - \`c!resume\`
+> \`c!remove\` - \`c!queue\` - \`c!filter\`
+> \`c!loop\` - \`c!lyrics\` - \`c!radio\`
 • ────── <a:pine_msg:850652037251072000> ────── •
 ‌**☢︎︎◢Other Commands**
-> \`n!lock\` - \`n!unlock\`
-> \`n!ban\` - \`n!unban\`
-> \`n!mute\` - \`n!unmute\`
-> \`n!slowmode\` - \`n!giveaway\`
-> \`n!clear\` - \`n!say\`
-> \`n!bans\` - \`n!cv\`
-> \`n!slap\` - \`n!hug\`
+> \`c!lock\` - \`c!unlock\`
+> \`c!ban\` - \`c!unban\`
+> \`c!mute\` - \`c!unmute\`
+> \`c!slowmode\` - \`c!giveaway\`
+> \`c!clear\` - \`c!say\`
+> \`c!bans\` - \`c!cv\`
+> \`c!slap\` - \`c!hug\`
 • ────── <a:emoji_29:850679611016871957> ────── •
 **☢︎︎◢Gifs Commands**
-> \`n!boy\` - \`n!girl\` - \`n!baby\`
-> \`n!couple\` - \`n!animal\` - \`n!anime\`
-> \`n!emoji\`
+> \`c!boy\` - \`c!girl\` - \`c!baby\`
+> \`c!couple\` - \`c!animal\` - \`c!anime\`
+> \`c!emoji\`
 • ────── <a:emoji_7:843144064337838106> ────── •
 **☢︎︎◢Auto Commands**
-> \`Welcome Channel\` **[丨𝖶𝖾𝗅𝖼𝗈𝗆𝖾 ]**
-> \`Left Channel\` **[丨𝖫𝖾𝖿𝗍 ]**
+> \`Welcome Channel\` **[ 💘»welcome ]**
+> \`Left Channel\` **[ 🔔»left ]**
 • ────── 🖇️ ────── •
 **‌☢︎︎◢Links**
 **[Support](https://discord.gg/2jAP99jssR) - [invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
