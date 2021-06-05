@@ -38,7 +38,7 @@ module.exports = {
 > \`n!clear\` - \`n!say\`
 > \`n!bans\` - \`n!cv\`
 > \`n!slap\` - \`n!hug\`
-**Gifs Commands**
+**<a:emoji_29:850679611016871957> - Gifs Commands**
 > \`n!boy\` - \`n!girl\` - \`n!baby\`
 > \`n!couple\` - \`n!animal\` - \`n!anime\`
 > \`n!emoji\`
