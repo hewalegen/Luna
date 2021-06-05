@@ -675,7 +675,7 @@ client.on("message", message => {
 });
 
 client.on("guildMemberAdd", async member => {
-  let channel = member.guild.channels.cache.find(c => c.name === 'new-join')
+  let channel = member.guild.channels.cache.find(c => c.name === '💘»welcome')
   let WELCOME = new Discord.MessageEmbed()
   .setTitle('New Join😍!')
   .addField("User Name:", `<@${member.user.id}>`, true)
@@ -692,7 +692,7 @@ client.on("guildMemberAdd", async member => {
 
 
 client.on("guildMemberRemove", async member => {
-  let channel = member.guild.channels.cache.find(c => c.name === 'left')
+  let channel = member.guild.channels.cache.find(c => c.name === '🔔»left')
   let WELCOME = new Discord.MessageEmbed()
   .setThumbnail(client.user.avatarURL)
   .addField("Name:", `<@${member.user.id}>`, true)
