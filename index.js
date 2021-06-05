@@ -683,7 +683,7 @@ client.on("guildMemberAdd", async member => {
   .addField("All User:", ` ${member.guild.memberCount}`, true)
   .addField("Server:", ` ${member.guild.name}`, true)
   .setColor('BLUE')
-  .setThumbnail(calli.user.avatarURL)
+  .setThumbnail(cleint.user.avatarURL)
   .setTimestamp()
   .setImage("https://cdn.discordapp.com/attachments/837954491403206676/850293441229226024/welcome-15.gif")
   .setFooter('')
@@ -694,7 +694,7 @@ client.on("guildMemberAdd", async member => {
 client.on("guildMemberRemove", async member => {
   let channel = member.guild.channels.cache.find(c => c.name === 'left')
   let WELCOME = new Discord.MessageEmbed()
-  .setThumbnail(calli.user.avatarURL)
+  .setThumbnail(clieng.user.avatarURL)
   .addField("Name:", `<@${member.user.id}>`, true)
   .addField("id:", `${member.user.id}`, true)
   .addField("Now We Have:", ` ${member.guild.memberCount} Members`, true)
