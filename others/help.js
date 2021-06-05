@@ -24,7 +24,7 @@ module.exports = {
 > \`n!ping\` - \`n!prefix\` - \`n!uptime\`
 > \`n!se\` - \`n!avatar\` - \`n!embed\`
 > \`n!invites\`
-**Music Commands**
+**<a:emoji_16:846056106392420383> - Music Commands**
 > \`n!play\` - \`n!skip\` - \`n!skipto\`
 > \`n!stop\` - \`n!volume\` - \`n!nowplaying\`
 > \`n!shuffle\` - \`n!search\` - \`n!resume\`
