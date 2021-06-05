@@ -42,7 +42,7 @@ module.exports = {
 > \`n!boy\` - \`n!girl\` - \`n!baby\`
 > \`n!couple\` - \`n!animal\` - \`n!anime\`
 > \`n!emoji\`
-**Auto Commands**
+**<a:emoji_7:843144064337838106> - Auto Commands**
 > \`Welcome Channel\` **[丨𝖶𝖾𝗅𝖼𝗈𝗆𝖾 ]**
 > \`Left Channel\` **[丨𝖫𝖾𝖿𝗍 ]**
 **Links**
