@@ -19,7 +19,7 @@ module.exports = {
     .setTitle(`**Ness Help**`)
     .setDescription(`
 
-**User Commands**
+**<a:emoji_21:847035009298595860> - User Commands**
 > \`n!invite\` - \`n!support\` - \`n!about\`
 > \`n!ping\` - \`n!prefix\` - \`n!uptime\`
 > \`n!se\` - \`n!avatar\` - \`n!embed\`
