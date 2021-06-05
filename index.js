@@ -675,34 +675,37 @@ client.on("message", message => {
 });
 
 client.on("guildMemberAdd", async member => {
-  let channel = member.guild.channels.cache.find(c => c.name === '丨𝖶𝖾𝗅𝖼𝗈𝗆𝖾')
+  let channel = member.guild.channels.cache.find(c => c.name === 'new-join')
   let WELCOME = new Discord.MessageEmbed()
-  .setTitle('')
-  .setDescription(`> **Welcome To Our Server ${member.user} we are happy to have you! you are member number ${member.guild.memberCount}!**`)
-  .setColor('RANDOM')
-  .setImage("https://cdn.discordapp.com/attachments/847071762339463188/847082913102954516/177908_6923c.gif")
-  .setThumbnail(client.user.avatarURL)
+  .setTitle('New Join😍!')
+  .addField("User Name:", `<@${member.user.id}>`, true)
+  .addField("User id:", `${member.user.id}`, true)
+  .addField("All User:", ` ${member.guild.memberCount}`, true)
+  .addField("Server:", ` ${member.guild.name}`, true)
+  .setColor('BLUE')
+  .setThumbnail(calli.user.avatarURL)
   .setTimestamp()
-  .setFooter('Hello')
+  .setImage("https://cdn.discordapp.com/attachments/837954491403206676/850293441229226024/welcome-15.gif")
+  .setFooter('')
   channel.send(WELCOME)
-}) 
+})
+
 
 client.on("guildMemberRemove", async member => {
-  let channel = member.guild.channels.cache.find(c => c.name === '丨𝖫𝖾𝖿𝗍')
-  let left = new Discord.MessageEmbed()
-  .setTitle(`**Left**`)
-    .setColor("RANDOM")
-    .setThumbnail(client)
-    .addField("┃**Name** : ", `${member}`)
-    .addField("┃**All Member** :", `${member.guild.memberCount}`)
-    .addField("┃**Server Name** :", `${member.guild.name}`, true)
-    .setFooter(`**${member.guild.name}**`)
-    .setTimestamp()
-    .setImage("")
-    .setFooter(`${member.guild.name}`)
-    .setTimestamp();
-  channel.send(left)
+  let channel = member.guild.channels.cache.find(c => c.name === 'left')
+  let WELCOME = new Discord.MessageEmbed()
+  .setThumbnail(calli.user.avatarURL)
+  .addField("Name:", `<@${member.user.id}>`, true)
+  .addField("id:", `${member.user.id}`, true)
+  .addField("Now We Have:", ` ${member.guild.memberCount} Members`, true)
+  .addField("Server:", ` ${member.guild.name}`, true)
+  .setColor('YELLOW')
+  .setTimestamp()
+  .setImage("")
+  .setFooter('')
+  channel.send(WELCOME)
 })
+
 
 function delay(delayInms) {
  return new Promise(resolve => {
