@@ -30,7 +30,7 @@ module.exports = {
 > \`n!shuffle\` - \`n!search\` - \`n!resume\`
 > \`n!remove\` - \`n!queue\` - \`n!filter\`
 > \`n!loop\` - \`n!lyrics\` - \`n!radio\`
-**Fun Commands**
+**<a:pine_msg:850652037251072000> - Other Commands**
 > \`n!lock\` - \`n!unlock\`
 > \`n!ban\` - \`n!unban\`
 > \`n!mute\` - \`n!unmute\`
