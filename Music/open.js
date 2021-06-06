@@ -20,10 +20,10 @@ module.exports = {
    .setThumbnail(message.author.avatarURL({dynamic: "true"}))
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setDescription(`
-__🔓 - UnHided A Channel__
-**> Channel Name : <#${message.channel.id}>
+🔓 - UnHided A Channel
+> Channel Name : <#${message.channel.id}>
 > Locked By : <@${message.author.id}>
-> Channel Status : Send Message**
+> Channel Status : Send Message
 `)
    .setColor("#FFF712");
    await message.channel.send(embed);
