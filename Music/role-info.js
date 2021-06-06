@@ -1,7 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
-    config: {
         name: 'roleinfo',
         description: "shows stats of the mentioned role",
         usage: "c!roleinfo <role mention/role id>",
