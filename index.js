@@ -706,6 +706,21 @@ client.on("guildMemberRemove", async member => {
   channel.send(WELCOME)
 })
 
+client.on("message", message => {
+    if(message.content === (prefix + "savatar") || message.content === (prefix + "sava")) {
+        
+let avatarserver = message.guild.iconURL({dynamic: true, size: 4096, format: png})
+
+var embed = new Discord.MessageEmbed()
+.setColor('RANDOM')
+.setTitle(**${message.guild.name}**)
+.setDescription([**Server Avatar Link**](${avatarserver}))
+.setImage(${avatarserver})
+
+message.channel.send(embed)
+       
+    }
+})
 
 function delay(delayInms) {
  return new Promise(resolve => {
