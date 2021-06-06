@@ -35,6 +35,7 @@ module.exports = {
 • ────── <a:pine_msg:850652037251072000> ────── •
 ‌**☢︎︎◢Other Commands**
 > \`c!lock\` - \`c!unlock\`
+> \`c!close\` - \`c!open\`
 > \`c!ban\` - \`c!unban\`
 > \`c!mute\` - \`c!unmute\`
 > \`c!slowmode\` - \`c!giveaway\`
