@@ -16,24 +16,21 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
-    .setTitle(`**Ness Help**`)
+    .setTitle(`**Luna✨ Help**`)
     .setDescription(`
 
-• ────── <a:emoji_21:847035009298595860> ────── •
-**☢︎︎◢User Commands**
+**User Commands**
 > \`c!invite\` - \`c!support\` - \`c!about\`
 > \`c!ping\` - \`c!prefix\` - \`c!uptime\`
 > \`n!se\` - \`c!avatar\` - \`c!embed\`
 > \`c!invites\`
-• ────── <a:emoji_16:846056106392420383> ────── •
-**☢︎︎◢Music Commands**
+**Music Commands**
 > \`c!play\` - \`c!skip\` - \`c!skipto\`
 > \`c!stop\` - \`c!volume\` - \`c!nowplaying\`
 > \`c!shuffle\` - \`c!search\` - \`c!resume\`
 > \`c!remove\` - \`c!queue\` - \`c!filter\`
 > \`c!loop\` - \`c!lyrics\` - \`c!radio\`
-• ────── <a:pine_msg:850652037251072000> ────── •
-‌**☢︎︎◢Other Commands**
+‌**Other Commands**
 > \`c!lock\` - \`c!unlock\`
 > \`c!close\` - \`c!open\`
 > \`c!ban\` - \`c!unban\`
@@ -42,17 +39,14 @@ module.exports = {
 > \`c!clear\` - \`c!say\`
 > \`c!bans\` - \`c!cv\`
 > \`c!slap\` - \`c!hug\`
-• ────── <a:emoji_29:850679611016871957> ────── •
-**☢︎︎◢Gifs Commands**
+**Gifs Commands**
 > \`c!boy\` - \`c!girl\` - \`c!baby\`
 > \`c!couple\` - \`c!animal\` - \`c!anime\`
 > \`c!emoji\`
-• ────── <a:emoji_7:843144064337838106> ────── •
-**☢︎︎◢Auto Commands**
+**Auto Commands**
 > \`Welcome Channel\` **[ 💘»welcome ]**
 > \`Left Channel\` **[ 🔔»left ]**
-• ────── 🖇️ ────── •
-**‌☢︎︎◢Links**
+**‌Links**
 **[Support](https://discord.gg/2jAP99jssR) - [invite](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
 `)
 
