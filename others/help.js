@@ -20,10 +20,10 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-> \`c!invite\` - \`c!support\` - \`c!about\`
-> \`c!ping\` - \`c!prefix\` - \`c!uptime\`
-> \`n!se\` - \`c!avatar\` - \`c!embed\`
-> \`c!invites\`
+> \`${prefix}invite\` - \`${prefix}support\` - \`${prefix}about\`
+> \`${prefix}ping\` - \`${prefix}prefix\` - \`${prefix}uptime\`
+> \`${prefix}se\` - \`${prefix}avatar\` - \`${prefix}embed\`
+> \`${prefix}invites\`
 **Music Commands**
 > \`c!play\` - \`c!skip\` - \`c!skipto\`
 > \`c!stop\` - \`c!volume\` - \`c!nowplaying\`
