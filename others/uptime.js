@@ -18,7 +18,7 @@ module.exports = {
     let seconds = Math.floor(client.uptime / 1000) % 60;
     //react with approve emoji
     message.react("<:emoji_15:830469967752724500>");
-    return message.channel.send(new MessageEmbed().setColor("#FFF712").setTitle(`<:emoji_15:830469967752724500>\`Ness uptime \`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
+    return message.channel.send(new MessageEmbed().setColor("#FFF712").setTitle(`<:emoji_15:830469967752724500>\`Luna Bot uptime \`\n\n\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\n\``));
 
 
   }
