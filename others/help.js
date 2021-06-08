@@ -40,9 +40,9 @@ module.exports = {
 > \`c!bans\` - \`c!cv\`
 > \`c!slap\` - \`c!hug\`
 **Gifs Commands**
-> \`c!boy\` - \`c!girl\` - \`c!baby\`
-> \`c!couple\` - \`c!animal\` - \`c!anime\`
-> \`c!emoji\`
+> \`${prefix}boy\` - \`${prefix}girl\` - \`${prefix}baby\`
+> \`${prefix}couple\` - \`${prefix}animal\` - \`${prefix}anime\`
+> \`${prefix}emoji\`
 **Auto Commands**
 > \`Welcome Channel\` **[ 💘»welcome ]**
 > \`Left Channel\` **[ 🔔»left ]**
