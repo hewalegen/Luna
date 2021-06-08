@@ -20,16 +20,16 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-> \`${prefix}invite\` - \`${prefix}support\` - \`${prefix}about\`
-> \`${prefix}ping\` - \`${prefix}prefix\` - \`${prefix}uptime\`
-> \`${prefix}se\` - \`${prefix}avatar\` - \`${prefix}embed\`
-> \`${prefix}invites\`
+> \`_invite\` - \`_support\` - \`_about\`
+> \`_ping\` - \`_prefix\` - \`_uptime\`
+> \`_se\` - \`_avatar\` - \`_embed\`
+> \`_invites\`
 **Music Commands**
-> \`${prefix}play\` - \`${prefix}skip\` - \`${prefix}skipto\`
-> \`${prefix}stop\` - \`${prefix}volume\` - \`${prefix}nowplaying\`
-> \`${prefix}shuffle\` - \`${prefix}search\` - \`${prefix}resume\`
-> \`${prefix}remove\` - \`${prefix}queue\` - \`${prefix}filter\`
-> \`${prefix}loop\` - \`${prefix}lyrics\` - \`${prefix}radio\`
+> \`_play\` - \`_skip\` - \`_skipto\`
+> \`_stop\` - \`_volume\` - \`_nowplaying\`
+> \`_shuffle\` - \`_search\` - \`_resume\`
+> \`_remove\` - \`_queue\` - \`_filter\`
+> \`_loop\` - \`_lyrics\` - \`_radio\`
 ‌**Other Commands**
 > \`${prefix}lock\` - \`${prefix}unlock\`
 > \`${prefix}close\` - \`${prefix}open\`
