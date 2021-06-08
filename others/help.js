@@ -31,9 +31,9 @@ module.exports = {
 > \`_remove\` - \`_queue\` - \`_filter\`
 > \`_loop\` - \`_lyrics\` - \`_radio\`
 ‌**Other Commands**
-> \`${prefix}lock\` - \`${prefix}unlock\`
-> \`${prefix}close\` - \`${prefix}open\`
-> \`${prefix}ban\` - \`${prefix}unban\`
+> \`_lock\` - \`_unlock\`
+> \`_close\` - \`_open\`
+> \`_ban\` - \`_unban\`
 > \`${prefix}mute\` - \`${prefix}unmute\`
 > \`${prefix}slowmode\` - \`${prefix}giveaway\`
 > \`${prefix}clear\` - \`${prefix}say\`
