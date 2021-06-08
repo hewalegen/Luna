@@ -31,14 +31,14 @@ module.exports = {
 > \`c!remove\` - \`c!queue\` - \`c!filter\`
 > \`c!loop\` - \`c!lyrics\` - \`c!radio\`
 ‌**Other Commands**
-> \`c!lock\` - \`c!unlock\`
-> \`c!close\` - \`c!open\`
-> \`c!ban\` - \`c!unban\`
-> \`c!mute\` - \`c!unmute\`
-> \`c!slowmode\` - \`c!giveaway\`
-> \`c!clear\` - \`c!say\`
-> \`c!bans\` - \`c!cv\`
-> \`c!slap\` - \`c!hug\`
+> \`${prefix}lock\` - \`${prefix}unlock\`
+> \`${prefix}close\` - \`${prefix}open\`
+> \`${prefix}ban\` - \`${prefix}unban\`
+> \`${prefix}mute\` - \`${prefix}unmute\`
+> \`${prefix}slowmode\` - \`${prefix}giveaway\`
+> \`${prefix}clear\` - \`${prefix}say\`
+> \`${prefix}bans\` - \`${prefix}cv\`
+> \`${prefix}slap\` - \`${prefix}hug\`
 **Gifs Commands**
 > \`${prefix}boy\` - \`${prefix}girl\` - \`${prefix}baby\`
 > \`${prefix}couple\` - \`${prefix}animal\` - \`${prefix}anime\`
