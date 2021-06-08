@@ -125,8 +125,8 @@ Channels: ${client.channels.cache.size}
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FFF712")
-    .setAuthor("About Luna Bot Bot.", "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024")
-    .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
+    .setAuthor("About Luna Bot Bot.", "https://cdn.discordapp.com/attachments/850352717511000065/851928296093909002/icons.jpg")
+    .setThumbnail(`https://cdn.discordapp.com/attachments/850352717511000065/851928296093909002/icons.jpg`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setDescription (`
 **[Luna Bot Stats](https://discord.com/api/oauth2/authorize?client_id=806840212608909344&permissions=8&scope=bot)**
