@@ -15,8 +15,8 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
-    .setTitle(`**Luna✨ Help**`)
+    .setThumbnail(`https://cdn.discordapp.com/attachments/850352717511000065/851928296093909002/icons.jpg`)
+    .setTitle(`**Luna Bot ✨ Help**`)
     .setDescription(`
 
 **User Commands**
