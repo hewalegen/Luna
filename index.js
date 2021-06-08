@@ -130,8 +130,7 @@ Channels: ${client.channels.cache.size}
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setDescription (`
 **[Luna Bot Stats](https://discord.com/api/oauth2/authorize?client_id=806840212608909344&permissions=8&scope=bot)**
-**Hey My name is Luna Bot ✨ and My Work is to
-play Music**`)    
+**Hey My name is Luna Bot ✨ and My Work is to play Music**`)    
     .addField("**Name** : ", `${client.user.tag} `, true)
     .addField("**ID Bot** : ", ` ${client.user.id} `, true)
     .addField("**Version** : ", `${process.version}`, true)
