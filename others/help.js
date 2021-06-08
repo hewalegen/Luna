@@ -34,15 +34,15 @@ module.exports = {
 > \`_lock\` - \`_unlock\`
 > \`_close\` - \`_open\`
 > \`_ban\` - \`_unban\`
-> \`${prefix}mute\` - \`${prefix}unmute\`
-> \`${prefix}slowmode\` - \`${prefix}giveaway\`
-> \`${prefix}clear\` - \`${prefix}say\`
-> \`${prefix}bans\` - \`${prefix}cv\`
-> \`${prefix}slap\` - \`${prefix}hug\`
+> \`_mute\` - \`_unmute\`
+> \`_slowmode\` - \`_giveaway\`
+> \`_clear\` - \`_say\`
+> \`_bans\` - \`_cv\`
+> \`_slap\` - \`_hug\`
 **Gifs Commands**
-> \`${prefix}boy\` - \`${prefix}girl\` - \`${prefix}baby\`
-> \`${prefix}couple\` - \`${prefix}animal\` - \`${prefix}anime\`
-> \`${prefix}emoji\`
+> \`_boy\` - \`_girl\` - \`_baby\`
+> \`_couple\` - \`_animal\` - \`_anime\`
+> \`_emoji\`
 **Auto Commands**
 > \`Welcome Channel\` **[ 💘»welcome ]**
 > \`Left Channel\` **[ 🔔»left ]**
