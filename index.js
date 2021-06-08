@@ -139,7 +139,7 @@ Channels: ${client.channels.cache.size}
     .addField("**Servers** : ", `${client.guilds.cache.size}`, true)
     .addField("**Users** : ", `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, true)
     .addField("**Channels** : ", `${client.channels.cache.size}`, true)
-    .addField("**Owner Bot** : ", `<@806840212608909344>`, true)
+    .addField("**Owner Bot** : ", `<@769643456577404959>`, true)
 
     //send the Message
     message.channel.send(embed)
