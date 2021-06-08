@@ -125,12 +125,12 @@ Channels: ${client.channels.cache.size}
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FFF712")
-    .setAuthor("About Ness Bot.", "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024")
+    .setAuthor("About Luna Bot Bot.", "https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024")
     .setThumbnail(`https://cdn.discordapp.com/avatars/844069682545164289/b40e8a61cbeb7a6319b5050238a9aa03.png?size=1024`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setDescription (`
-**[Ness Stats](https://discord.com/api/oauth2/authorize?client_id=844069682545164289&permissions=8&scope=bot)**
-**Hey My name is Ness ✨ and My Work is to
+**[Luna Bot Stats](https://discord.com/api/oauth2/authorize?client_id=806840212608909344&permissions=8&scope=bot)**
+**Hey My name is Luna Bot ✨ and My Work is to
 play Music**`)    
     .addField("**Name** : ", `${client.user.tag} `, true)
     .addField("**ID Bot** : ", ` ${client.user.id} `, true)
@@ -140,7 +140,7 @@ play Music**`)
     .addField("**Servers** : ", `${client.guilds.cache.size}`, true)
     .addField("**Users** : ", `${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, true)
     .addField("**Channels** : ", `${client.channels.cache.size}`, true)
-    .addField("**Owner Bot** : ", `<@749659830809002014>`, true)
+    .addField("**Owner Bot** : ", `<@806840212608909344>`, true)
 
     //send the Message
     message.channel.send(embed)
