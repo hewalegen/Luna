@@ -25,11 +25,11 @@ module.exports = {
 > \`${prefix}se\` - \`${prefix}avatar\` - \`${prefix}embed\`
 > \`${prefix}invites\`
 **Music Commands**
-> \`c!play\` - \`c!skip\` - \`c!skipto\`
-> \`c!stop\` - \`c!volume\` - \`c!nowplaying\`
-> \`c!shuffle\` - \`c!search\` - \`c!resume\`
-> \`c!remove\` - \`c!queue\` - \`c!filter\`
-> \`c!loop\` - \`c!lyrics\` - \`c!radio\`
+> \`${prefix}play\` - \`${prefix}skip\` - \`${prefix}skipto\`
+> \`${prefix}stop\` - \`${prefix}volume\` - \`${prefix}nowplaying\`
+> \`${prefix}shuffle\` - \`${prefix}search\` - \`${prefix}resume\`
+> \`${prefix}remove\` - \`${prefix}queue\` - \`${prefix}filter\`
+> \`${prefix}loop\` - \`${prefix}lyrics\` - \`${prefix}radio\`
 ‌**Other Commands**
 > \`${prefix}lock\` - \`${prefix}unlock\`
 > \`${prefix}close\` - \`${prefix}open\`
