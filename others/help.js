@@ -20,16 +20,16 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-> \`_invite\` - \`_support\` - \`_about\`
-> \`_ping\` - \`_prefix\` - \`_uptime\`
-> \`_se\` - \`_avatar\` - \`_embed\`
+> \`+invite\` - \`+support\` - \`+about\`
+> \`+ping\` - \`+prefix\` - \`+uptime\`
+> \`+se\` - \`+avatar\` - \`+embed\`
 > \`_invites\`
 **Music Commands**
-> \`_play\` - \`_skip\` - \`_skipto\`
-> \`_stop\` - \`_volume\` - \`_nowplaying\`
-> \`_shuffle\` - \`_search\` - \`_resume\`
-> \`_remove\` - \`_queue\` - \`_filter\`
-> \`_loop\` - \`_lyrics\` - \`_radio\`
+> \`+play\` - \`+skip\` - \`+skipto\`
+> \`_stop\` - \`_volume\` - \`+nowplaying\`
+> \`_shuffle\` - \`_search\` - \`+resume\`
+> \`_remove\` - \`_queue\` - \`+filter\`
+> \`_loop\` - \`_lyrics\` - \`+adio\`
 ‌**Other Commands**
 > \`_lock\` - \`_unlock\`
 > \`_close\` - \`_open\`
